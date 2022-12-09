@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Galeria</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, 
+    user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0"
+    />
+
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/galeria.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- iconos fontastic -->
+    <link
+      href="https://file.myfontastic.com/EUPR2MUpr7bJSKyzUT6Ugb/icons.css"
+      rel="stylesheet"
+    />
+  </head>
+
+
+
+  <body>
+
+<!-- modal para galeria -->
+<div class="modal" id="modal">
+    <div class="modal_content">
+        <img src="" alt="" class="modal_img" id="modal_img">
+    </div>
+    <div class="modal_boton" id="modal_boton">X</div>
+</div>
+
+
+<header class="main-header">
+        <div class="container container-flex">
+            <div class="logo-container column column-50">
+                <h1 class="logo">Tu Restaurante</h1>
+            </div>
+
+            <div class="main-header_contactInfo column column-50">
+                <div class="main-header_contactInfo_phone">
+                    <span class="icon-phone">999-999-88</span>
+                </div>
+                <div class="main-header_contactInfo_address">
+                    <span class="icon-location">Col. El Nopal calle santa elena</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+ <!-- menu -->
+ <nav class="main-nav">
+    <div class="container container-flex">
+        <span class="icon-menu" id="btn_menu"></span>
+        <ul class="menu" id="menu">
+            <li class="menu_item"><a href="index.html" class="menu_link ">Inicio</a></li>
+            <li class="menu_item"><a href="nosotros.html" class="menu_link">Nosotros</a></li>
+            <li class="menu_item"><a href="galeria.html" class="menu_link menu-select">Galeria</a></li>
+            <li class="menu_item"><a href="contacto.html" class="menu_link">Contacto</a></li>
+        </ul>
+        <div class="social-icon">
+            <a href="" class="social icon_link"><span class="icon-facebook"></span></a>
+            <a href="" class="social icon_link"><span class="icon-twitter"></span></a>
+            <a href="" class="social icon_link"><span class="icon-mail"></span></a>
+        </div>
+    </div>
+</nav>
+
+    <section class="banner">
+      <img src="img/galeria/banner-galeria.jpg" alt="" class="banner_img" />
+      <div class="banner_content">Lo mejor de nosotros a tu servicio</div>
+    </section>
+
+
+
+<main class="main">     
+<div class="group gallery">
+    <h2 class="group_title">Nuestra Galeria</h2>
+    <div class="container container-flex">
+        <div class="column column-50-25">
+            <img src="img/galeria/gallery1.jpg" alt="" class="gallery_img gallery_img-big">
+            <img src="img/galeria/gallery2.jpg" alt="" class="gallery_img gallery_img-small">
+        </div>
+        <div class="column column-50-25">
+            <img src="img/galeria/gallery3.jpg" alt="" class="gallery_img gallery_img-small">
+            <img src="img/galeria/gallery4.jpg" alt="" class="gallery_img gallery_img-big">
+        </div>
+        <div class="column column-50-25">
+            <img src="img/galeria/gallery5.jpg" alt="" class="gallery_img gallery_img-big">
+            <img src="img/galeria/gallery6.jpg" alt="" class="gallery_img gallery_img-small">
+        </div>
+        <div class="column column-50-25">
+            <img src="img/galeria/gallery7.jpg" alt="" class="gallery_img gallery_img-small">
+            <img src="img/galeria/gallery8.jpg" alt="" class="gallery_img gallery_img-big">            
+        </div>
+    </div> 
+</div>
+
+</main>
+
+
+    <footer class="main-footer">
+        <div class="container container-flex">
+            <div class="column column-33">
+                <h2 class="column_title">¿Po qué visitarnos</h2>
+                <p class="column_txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore beatae, soluta
+                    obcaecati reprehenderit repellat, corrupti, possimus ducimus laboriosam accusantium maxime inventore
+                    veniam necessitatibus omnis sunt recusandae eaque nesciunt ipsum! Fugit?</p>
+
+            </div>
+            <div class="column column-33">
+                <p class="column_title">Contáctanos</p>
+                <p class="column_txt">Col. El nopal calle santa Elena edificio KOICA, EL SALVADOR</p>
+                <p class="column_txt">Teléfono: 999-999-999</p>
+                <p class="column_txt">consultas@yourrestaurant.com</p>
+            </div>
+
+            <div class="column column-33">
+                <p class="column_title">Siguenos en nuestras redes</p>
+                <p class="column_txt"><a href="" class="icon-facebook">Facebook</a></p>
+                <p class="column_txt"><a href="" class="icon-twitter">Síguenos en Twitter</a></p>
+                <p class="column_txt"><a href="" class="icon-youtube">Visita nuestro canal</a></p>
+            </div>
+            <p class="copy">@ 2021 Your Restaurante | Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/modal.js"></script>
+  </body>
+</html>

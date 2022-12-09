@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* sitio-web */
+@font-face {
+  font-family: "sitio-web";
+  src:url("https://file.myfontastic.com/EUPR2MUpr7bJSKyzUT6Ugb/fonts/1642689261.eot");
+  src:url("https://file.myfontastic.com/EUPR2MUpr7bJSKyzUT6Ugb/fonts/1642689261.eot?#iefix") format("embedded-opentype"),
+    url("https://file.myfontastic.com/EUPR2MUpr7bJSKyzUT6Ugb/fonts/1642689261.woff") format("woff"),
+    url("https://file.myfontastic.com/EUPR2MUpr7bJSKyzUT6Ugb/fonts/1642689261.ttf") format("truetype"),
+    url("https://file.myfontastic.com/EUPR2MUpr7bJSKyzUT6Ugb/fonts/1642689261.svg#1642689261") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "sitio-web" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "sitio-web" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-youtube:before {
+  content: "\61";
+}
+.icon-mail:before {
+  content: "\62";
+}
+.icon-phone:before {
+  content: "\63";
+}
+.icon-twitter:before {
+  content: "\64";
+}
+.icon-facebook:before {
+  content: "\65";
+}
+.icon-location:before {
+  content: "\66";
+}
+.icon-menu:before {
+  content: "\67";
+}
